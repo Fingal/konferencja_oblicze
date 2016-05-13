@@ -35,6 +35,8 @@
 \newtheorem{definicja}{Definicja}
 \newtheorem{przyklad}{Przykład}
 \newtheorem{twierdzenie}{Twierdzenie}
+\newtheorem{lemat}{Lemat}
+\newtheorem{wn}{Wniosek}
 
 \begin{document}
 
@@ -129,7 +131,7 @@ $|\alpha\beta$
 
 \begin{frame}{Liczby Konstruowalne}
 \begin{definicja}
-Liczba zespololona jest konstruowalna. 
+Liczba zespololona jest konstruowalna, gdy można utworzyć ją za pomocą aksjomatów C1, C2, P1, P2, P3 w skończonej liczbie kroków. z liczb $0$, $1$.
 \end{definicja}
 \end{frame}
 
@@ -149,6 +151,16 @@ Liczby naturalne
 \begin{figure}[!htb]
 \includegraphics[scale=0.1]{ex2.eps}
 \label{fig:ex2}
+\end{figure}
+\end{przyklad}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{przyklad}
+Liczby naturalne
+\begin{figure}[!htb]
+\includegraphics[scale=0.1]{ex25.eps}
+\label{fig:ex2,5}
 \end{figure}
 \end{przyklad}
 \end{frame}
@@ -232,7 +244,7 @@ $$\frac{\alpha}{\beta}=\frac{ae^{\theta}}{be^{\tau}}=(\frac{a}{b})e^{\theta-\tau
 
 \begin{frame}{Liczby Konstruowalne}
 \begin{Huge}
-$$\sqrt{\alpha}=\sqrt{a}e^{\frac{\theta}{2}}$$
+$$\sqrt{\alpha}=\sqrt{r}e^{\frac{\theta}{2}}$$
 \end{Huge}
 \end{frame}
 
@@ -251,8 +263,11 @@ $$\sqrt{\alpha}=\sqrt{a}e^{\frac{\theta}{2}}$$
 \end{figure}
 \end{frame}
 
+\begin{frame}{Przypomnienie}
+\end{frame}
+
 \begin{frame}{Liczby Konstruowalne}
-\begin{twierdzenie}
+\begin{twierdzenie}\label{wieza}
 Niech $\alpha$ będzie liczbą zespoloną. Wtedy $\alpha\in\mathcal{C}$ wtedy i tylko wtedy, gdy istnieją ciała $$\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$$ takie, że $\alpha\in F_n$ i $[F_{i-1}:F_i]=2$ dla $0<i\leqslant n$ 
 \end{twierdzenie}
 \end{frame}
@@ -275,7 +290,7 @@ Dla $N=0$ $\alpha=0$ lub $\alpha=1$ zatem $\mathbb{Q}=F_0=F_n$.
 \begin{frame}{Liczby Konstruowalne}
 \begin{proofs}
 Niech $N>1$ i punkt $\alpha$ został otrzymany za pomocą P1, przecięcie się prostych $l_1$, $l_2$. Proste powstały z punktów $\alpha_1$ i $\beta_1$ oraz $\alpha_2$ i $\beta_2$. 
-$\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ powstały w co najwyżej $N-1$ krokach, zatem z założenia indukcyjnego istnieje $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$ gdzie $[F_{i-1}:F_i]=2$, że części urojone $\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ należą do $F_n$. Prosta $l_1$ jest opisana równaniem $a_1 x+b_1 y=c_1$, ponieważ $\alpha_1,\beta_1\in F_n$ to $a_1,b_1,c_1\in F_n$. analogicznie równaniem $l_2$ jest $a_2 x+b_2 y=c_2$. $\alpha$ jest punktem przecięcia się $l_1$, $l_2$. Zatem jego części urojone i rzeczywiste rozwiązaniem układu równań:
+$\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ powstały w co najwyżej $N-1$ krokach, zatem z założenia indukcyjnego istnieje $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$ gdzie $[F_{i-1}:F_i]=2$, że części urojone i rzeczywiste $\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ należą do $F_n$. Prosta $l_1$ jest opisana równaniem $a_1 x+b_1 y=c_1$, ponieważ $\alpha_1,\beta_1\in F_n$ to $a_1,b_1,c_1\in F_n$. analogicznie równaniem $l_2$ jest $a_2 x+b_2 y=c_2$. $\alpha$ jest punktem przecięcia się $l_1$, $l_2$. Zatem jego części urojone i rzeczywiste rozwiązaniem układu równań:
 \begin{equation*}
 \begin{matrix}
 a_1 x+b_1 y=c_1\\
@@ -289,7 +304,7 @@ Stąd $\alpha\in F_n$
 \begin{frame}{Liczby Konstruowalne}
 \begin{proofs}
 Niech $N>1$ i punkt $\alpha$ został otrzymany za pomocą P1, przecięcie się prostych $l_1$, $l_2$. Proste powstały z punktów $\alpha_1$ i $\beta_1$ oraz $\alpha_2$ i $\beta_2$. 
-$\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ powstały w co najwyżej $N-1$ krokach, zatem z założenia indukcyjnego istnieje $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$ gdzie $[F_{i-1}:F_i]=2$, że części urojone $\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ należą do $F_n$. Prosta $l_1$ jest opisana równaniem $a_1 x+b_1 y=c_1$, ponieważ $\alpha_1,\beta_1\in F_n$ to $a_1,b_1,c_1\in F_n$. analogicznie równaniem $l_2$ jest $a_2 x+b_2 y=c_2$. $\alpha$ jest punktem przecięcia się $l_1$, $l_2$. Zatem jego części urojone i rzeczywiste rozwiązaniem układu równań:
+$\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ powstały w co najwyżej $N-1$ krokach, zatem z założenia indukcyjnego istnieje $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$ gdzie $[F_{i-1}:F_i]=2$, że części urojone i rzeczywiste $\alpha_1$, $\beta_1$, $\alpha_2$, $\beta_2$ należą do $F_n$. Prosta $l_1$ jest opisana równaniem $a_1 x+b_1 y=c_1$, ponieważ $\alpha_1,\beta_1\in F_n$ to $a_1,b_1,c_1\in F_n$. analogicznie równaniem $l_2$ jest $a_2 x+b_2 y=c_2$. $\alpha$ jest punktem przecięcia się $l_1$, $l_2$. Zatem jego części urojone i rzeczywiste rozwiązaniem układu równań:
 \begin{equation*}
 \begin{matrix}
 a_1 x+b_1 y=c_1\\
@@ -298,6 +313,161 @@ a_2 x+b_2 y=c_2
 \end{equation*}
 Stąd $\alpha\in F_n$
 \end{proofs}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{proofs}
+Niech $N>1$ i punkt $\alpha$ został otrzymany za pomocą P2, przecięcie się prostej $l$ i okręgu $o$. Jak poprzednio można znaleźć $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$ gdzie $[F_{i-1}:F_i]=2$, że części rzeczywiste i urojone punktów, z których powstały $l$ i $o$, należą do $F_n$.\\
+ $\alpha$ jest rozwiązaniem układu równań.
+\begin{equation*}
+\begin{matrix}
+a_1x+b_1 y=c_1\\
+x^2+y^2+a_2x+b_2y+c_2=0
+\end{matrix}
+\end{equation*}
+Gdzie $a_1,b_1,a_2,b_2,c_2\in F_n$. Załóżmy, że $a_1\not =0$, więc możemy przyjąć, że $a_1=1$.Po podstawieniu $x=-b_1y+c_1$ otrzymujemy równanie kwadratowe:
+$$(-b_1y+c_1)^2+y^2+a_2(-b_1y+c_1)+b_2y+c_2=0$$
+\end{proofs}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{proofs}
+$$(-b_1y+c_1)^2+y^2+a_2(-b_1y+c_1)+b_2y+c_2=0$$
+W przypadku, gdy wartości $y$, będące rozwiązaniami równania, należą do $F_n$, to $x=b_1y+c_1$ także należy do $F_n$, więc $F_n$ jest szukanym ciałem
+
+Gdy rozwiązania nie należą do $F_n$, to istnieje rozszerzenie $F_{n+1}$ stopnia drugiego $F_n$, do którego należą wartości rozwiązania, $x=b_1y-c_1$ także należy do $F_{n+1}$. Zatem $F_{n+1}$ jest szukanym ciałem. 
+\end{proofs}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{proof}
+Niech $N>1$ i punkt $\alpha$ został otrzymany za pomocą P3, przecięcie się dwóch okręgów $o_1$ i $o_2$. Jak poprzednio $\alpha$ jest rozwiązaniem równania
+\begin{equation*}
+\begin{matrix}
+x^2+y^2+a_1x+b_1y+c_1=0\\
+x^2+y^2+a_2x+b_2y+c_2=0
+\end{matrix}
+\end{equation*}
+Po odjęciu stronami otrzymujemy:
+\begin{equation*}
+\begin{matrix}
+(a_1-a_2)x+(b_1-b_2)y+(c_1-c_2)=0\\
+x^2+y^2+a_2x+b_2y+c_2=0
+\end{matrix}
+\end{equation*}
+Co sprowadza się do poprzedniego przypadku.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{wn}
+$\mathcal{C}$ jest najmniejszym ciałem zamkniętym na operację pierwiastka kwadratowego.
+\end{wn}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{proof}
+Wiemy, że $\mathcal{C}$ jest zamknięty na operację $\sqrt{\ }$. Załóżmy, że istnieje $F\subset \mathbb{C}$ będzie ciałem zamkniętym na $\sqrt{\ }$. Weźmy dowolne $\alpha\in \mathcal{C}$. Z poprzedniego twierdzenia wiemy, istnieje wieża ciał $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$, gdzie $F_i=F_{i-1}(\alpha_i)$. Stąd $F_n\in F$, zatem $\mathcal{C}\subset F$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{wn}
+Jeżeli $\alpha\in\mathcal{C}$, to $[\mathbb{Q}(\alpha):\mathbb{Q}]=2^n$ dla pewnego $n\in\mathbb{N}$. Więc każda liczba konstruowalna jest algebraiczna nad $\mathbb{Q}$ oraz jej wielomian minimalny jest stopnia $2^n$.
+\end{wn}
+\end{frame}
+
+\begin{frame}{Liczby Konstruowalne}
+\begin{proof}
+Jeżeli $\alpha\in\mathcal{C}$, to istnieje wieża ciał z poprzedniego twierdzenia $\mathbb{Q}=F_0 \subset F_1 \subset ...\subset F_n \subset \mathbb{C}$, gdzie $[F_i:F_{i-1}]=2$. Stąd 
+$$[F_n:\mathbb{Q}]=[F_n:F_0]=[F_n:F_{n-1}][F_{n-1}:F_{n-2}]...[F_2:F_1]=2^m$$
+Ponieważ $\mathbb{Q}\subset\mathbb{Q}(\alpha)\subset F_n$, to $[\mathbb{Q}(\alpha\mathbb{Q}]$ dzieli $[F_n:\mathbb{Q}]$. Zatem $[\mathbb{Q}(\alpha\mathbb{Q}]=2^n$.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Trysekcja kąta}
+\begin{przyklad}
+Na przykładzie kąta $\frac{2}{3}\pi$. \\
+Kąt $\theta$ utożsamiamy z liczbą $e^\theta$
+\end{przyklad}
+\end{frame}
+
+\begin{frame}{Trysekcja kąta}
+\begin{przyklad}
+\begin{figure}[!htb]
+\includegraphics[scale=0.15]{kat.eps}
+\end{figure}
+\end{przyklad}
+\end{frame}
+
+\begin{frame}{Trysekcja kąta}
+\begin{przyklad}
+Pokażemy, że nie da się podzielić kąta $\frac{2}{3}\pi$ na trzy, czyli skonstruować kąta $\frac{2}{9}\pi$\\
+Kąt $\theta$ utożsamiamy z liczbą $e^\theta$.\\
+Czyli badamy konstruowalność punku $e^{\frac{2}{9}\pi}=\zeta_9$. Wielomianem minimalnym $\zeta_9$ jest $x^6+x^3+1$, którego stopień to 6. Stąd $\zeta_9$ nie jest konstruowalny.
+\end{przyklad}
+\end{frame}
+
+\begin{frame}{Podwojenie Objętości sześcianu}
+\begin{przyklad}
+Problem sprowadza się do skonstruowania liczby $\sqrt[3]{2}$. jego wielomian minimalny to $x^3-2$, jego stopień wynosi $3$. Co oznacza, że $\sqrt[3]{2}$ nie jest konstruowalny.
+\end{przyklad}
+\end{frame}
+
+\begin{frame}{Teoria Galois}
+
+\end{frame}
+
+\begin{frame}{Liczby konstruowalne}
+\begin{twierdzenie}
+Niech $\alpha\in\mathbb{C}$ będzie algebraiczne nad $\mathbb{Q}$ i $\mathbb{Q}\subset L$ będzie ciałem rozkładu wielomianu minimalnego $\alpha$ nad $\mathbb{Q}$. Wtedy $\alpha$ jest konstruowalne wtedy i tylko wtedy, gdy $[L:\mathbb{Q}]$ jest potęgą dwójki.
+\end{twierdzenie}
+\end{frame}
+
+
+\begin{frame}{Liczby konstruowalne}
+\begin{proofs}
+$(\Leftarrow)$ Załóżmy, że $[L:\mathbb{Q}]$ jest potęgą dwójki. Ponieważ $L/\mathbb{Q}$ jest Galois, to $|Gal(L/\mathbb{Q})|=[L:\mathbb{Q}]=2^n$. $Gal(L/\mathbb{Q})$ jest rozwiązywalna, więc istnieją podgrupy:
+$$\{e\}=G_m\subset G_{m-1}\subset ...\subset G_1\subset G_0=Gal(L/\mathbb{Q})$$ 
+takie, że $G_{i-1}$ jest podgrupą normalną dla $G_{i}$ o indeksie 2. Z odpowiedniości Galois wynika, że istnieje wieża ciał
+$$\mathbb{Q}=L_{G_0}\subset L_{G_1}\subset...\subset L_{G_m}=L,$$
+gdzie $[L_{G_i}:L_{G_{i-1}}]=2$. Zatem $\alpha$ jest konstruowalne.
+\end{proofs}
+\end{frame}
+
+
+\begin{frame}{Liczby Origami}
+\begin{figure}[!htb]
+\includegraphics[scale=2]{origamitrisection.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Liczby Origami}
+\begin{lemat}
+Niech $P_1$ będzie punktem na płaszczyźnie nie leżącym na linii $l_1$. Linia $l$, o którą odbicie $P_1$ leży na prostej $l_1$, jest styczna z parabolą o ogniskowej w $P_1$ i kierownicy $l_1$.
+\end{lemat}
+\end{frame}
+
+\begin{frame}{Liczby Origami}
+\begin{przyklad}
+pokażemy, jak za pomocą stycznej do 2 paraboli policzyć pierwiastki wielomianu $x^3+ax+b=c$
+rozważmy parabole
+$$(y-\frac{a}{2})^2=2bx \text{ oraz } y=\frac{1}{2}x^2$$
+Niech $l$ będzie prostą styczną do tych parabol. w punktach $(x_1,y_1)$ pierwszą oraz $(x_2,y_2)$ drugą. współczynnik nachylenia prostej wynosi:
+$$m=\frac{b}{y_1-\frac{1}{2}a}$$
+stąd $m\not=0$ oraz:
+$$x_1=\frac{zb}{2m^2}$$
+$$y_1=\frac{zb}{m}+\frac{a}{2}$$
+\end{przyklad}
+\end{frame}
+
+\begin{frame}{Liczby Origami}
+\begin{przyklad}
+Jeśli podstawimy pod $m=\frac{y_1-y_2}{x_1-x_2}$ otrzymamy:
+$$m=\frac{y_1-y_2}{x_1-x_2}=\frac{\frac{m^2}{2}-(\frac{b}{m}+\frac{a}{2})}{m-\frac{2}{2m^2}}=\frac{m^4-2m-qm^2}{2m^3-b}$$
+Co sprowadza się do:
+$$m^3+am^2+bm+c=0$$
+\end{przyklad}
 \end{frame}
 
 \begin{frame}{Readable Mathematics}
