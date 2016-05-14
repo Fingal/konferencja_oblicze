@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="585.66364" height="507.47067" viewBox="0 0 585.66365 507.47068" id="svg2" xml:space="preserve" style="overflow:visible"><defs id="defs27"/>
+<path d="m 505.37584,62.805893 -481.395,0.521 -0.521,196.449197 481.1719,211.4468 0.7441,-408.416997 z" id="rect3633" style="fill:#ffffdd;stroke:#000000;stroke-width:4"/>
+<path d="m 185.46424,331.29909 -1.0938,-265.906297 h -1 m 161.375,337.093797 0.2188,-0.4688 h 0.5 l 0.3437,-337.812497 h -1" id="rect3635" style="fill:none;stroke:#000000;stroke-width:1"/>
+<path d="M 560.58484,420.58809 232.68884,66.138893 24.76054,260.48359 l 480.2774,212.9795 55.5469,-52.875 z" id="rect3633-4" style="fill:#cceeff;stroke:#000000;stroke-width:4"/>
+<path d="m 343.27574,188.57689 -157.5659,143.3862 m 158.8125,70.6563 107.2813,-98.6875" id="rect3635-0" style="fill:none;stroke:#000000;stroke-width:1"/>
+<path d="m 233.80304,82.512393 c -8.6475,0.0029 -15.6602,-7.0044 -15.6631,-15.6519 -0.003,-8.6475 7.0049,-15.6597 15.6519,-15.6631 0.004,0 0.007,0 0.0112,0 8.647,0.0034 15.6548,7.0156 15.6519,15.6631 -0.003,8.6431 -7.0088,15.649 -15.6519,15.6519 z" id="path3983" style="fill:none;stroke:#ff0000;stroke-width:3"/>
+<path d="m 345.08624,201.24139 c -8.647,0.003 -15.6597,-7.0049 -15.6626,-15.6519 -0.003,-8.6475 7.0044,-15.6602 15.6519,-15.6631 0.003,0 0.007,0 0.0107,0 8.6475,0.003 15.6553,7.0156 15.6519,15.6631 -0.003,8.6431 -7.0088,15.649 -15.6519,15.6519 z" id="path3983-0" style="fill:none;stroke:#ff0000;stroke-width:3"/>
+<text x="13.21074" y="41.957294" id="text9" style="font-size:40px;font-family:ArialMT">A</text>
+<text x="497.89334" y="41.957294" id="text11" style="font-size:40px;font-family:ArialMT">B</text>
+<text x="224.51054" y="41.957294" id="text13" style="font-size:40px;font-family:ArialMT">P</text>
+<text x="359.36505" y="184.7717" id="text15" style="font-size:40px;font-family:ArialMT">Q</text>
+<g transform="translate(-6.06706,-3.5447068)" id="g3640">
+<path d="M 232.5938,54.125 32.75,54.375 v 1.0625 L 232.5938,55.2187 V 54.125 z" id="path2837" style="fill:#0000ff"/>
+<path d="m 43.5684,54.8945 4.3267,-4.3369 -15.1567,4.3501 15.1675,4.3135 -4.3375,-4.3267 z" id="path3646" style="fill:#0000ff;stroke:#0000ff;stroke-width:0.8664"/>
+<path d="m 221.7637,54.6812 -4.3267,4.3369 15.1567,-4.3501 -15.167,-4.314 4.337,4.3272 z" id="path3648" style="fill:#0000ff;stroke:#0000ff;stroke-width:0.8664"/>
+</g>
+<g transform="translate(-6.06706,-3.5447068)" id="g3650">
+<path d="M 507.312,53.4063 246.4063,53.625 v 1.2188 L 507.312,54.625 v -1.2187 z" id="path2837-9" style="fill:#0000ff"/>
+<path d="m 258.6685,54.2324 4.9043,-4.9131 -17.1753,4.9238 17.1841,4.8931 -4.9131,-4.9038 0,0 z" id="path3656" style="fill:#0000ff;stroke:#0000ff;stroke-width:0.9817"/>
+<path d="m 495.0308,54.019 -4.9043,4.9126 17.1758,-4.9238 -17.1836,-4.8931 4.9121,4.9043 0,0 z" id="path3658" style="fill:#0000ff;stroke:#0000ff;stroke-width:0.9817"/>
+</g>
+</svg>

@@ -187,7 +187,7 @@ Liczby urojone całkowite
 
 \begin{frame}{Liczby Konstruowalne}
 \begin{twierdzenie}
-Niech $\mathcal{C}=\{\alpha\in\mathbb{C}\ |\ \alpha\ jest\ konstuowalne\}$ $\mathcal{C}$ jest podciałem 	$\mathbb{C}$ Ponadto: 
+Niech $\mathcal{C}=\{\alpha\in\mathbb{C}\ |\ \alpha\ jest\ konstuowalne\}$. $\mathcal{C}$ jest podciałem 	$\mathbb{C}$ Ponadto: 
 \begin{enumerate}[label=(\alph*)]
 \item Niech $\alpha = a + bi\in\mathcal{C}$, gdzie $a,b\in\mathbb{R}$, to $a,b\in\mathcal{C}$.
 \item Jeżeli $\alpha \in \mathcal{C}$, to $\sqrt{\alpha}\in\mathcal{C}$
@@ -435,10 +435,66 @@ gdzie $[L_{G_i}:L_{G_{i-1}}]=2$. Zatem $\alpha$ jest konstruowalne.
 \end{proofs}
 \end{frame}
 
+\begin{frame}{Wielokąty foremne}
+\begin{figure}[!htb]
+\includegraphics[scale=0.25]{wielokat.eps}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Wielokąty foremne}
+\begin{figure}[!htb]
+\includegraphics[scale=0.25]{rootu.eps}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Wielokąty foremne}
+\begin{definicja}
+Liczba pierwsza $p$ większa od 2 jest liczbą pierwszą Fermata, jeżeli można ją zapisać jako:
+$$p=2^{2^n}+1$$
+\end{definicja}
+\end{frame}
+
+\begin{frame}{Wielokąty foremne}
+\begin{twierdzenie}
+Niech $n>2$ całkowite, wtedy n-kąt foremny może zostać skonstruowany wtedy i tylko wtedy, gdy
+$$n=2^sp_1p_2...p_r,$$
+gdzie $p_1,...,p_n$ są liczbami pierwszymi Fermata.
+\end{twierdzenie}
+\end{frame}
+
+\begin{frame}{Wielokąty foremne}
+\begin{proofs}
+($\Leftarrow$) Dany n-kąt foremny jest konstruowalny, gdy konstruowalne jest $\zeta_n$.
+Wiemy, że:
+\begin{itemize}
+\item $\mathbb{Q}\subset\mathbb{Q}(\zeta_n)$ jest Galois,
+\item $\zeta_n$ jest konstruowalne, gdy $[\mathbb{Q}(\zeta_n):\mathbb{Q}]=2^s$
+\item $[\mathbb{Q}(\zeta_n):\mathbb{Q}]=\phi(n)$ 
+\end{itemize}
+$$\phi(n)=n\prod_{p|n}(1-\frac{1}{p})=\begin{cases}
+2^{s-1}(p_1-1)(p_2-1)...(p_n-1)\text{,} & s>0\\
+(p_1-1)(p_2-1)...(p_n-1)\text{,} & s=0 \end{cases}$$
+w obu przypadkach $[\mathbb{Q}(\zeta_n):\mathbb{Q}]=\phi(n)$ jest potęgą dwójki.
+\end{proofs}
+\end{frame}
+
+\begin{frame}{Wielokąty foremne}
+\begin{proof}
+($\Rightarrow$) Niech $n=q_1^{s_1},...,q_n^{s_n}$, gdzie $q_1,...,q_n$ są liczbami pierwszymi.
+$$\phi(n)=n\prod_{q|n}(1-\frac{1}{q})=q_1^{a_1}(q_1-1)...q_2^{a_2}\textsl{•}(q_2-2).$$
+Jeżeli $q_i$ jest większe od 2, to $s_i$ jest równe 1, dla 2 dowolne. Zatem wszystkie liczby   $q_1,...,q_n$ są postaci $2^{k_i}+1$. Wystarczy dowieść, że jeżeli liczba pierwsza tej postaci jest liczbą Fermata.
+\end{proof}
+\end{frame}
 
 \begin{frame}{Liczby Origami}
 \begin{figure}[!htb]
 \includegraphics[scale=2]{origamitrisection.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Liczby Origami}
+\begin{figure}[!htb]
+\includegraphics[scale=2]{Huzita_axiom_6.png}
 \end{figure}
 \end{frame}
 
@@ -470,13 +526,21 @@ $$m^3+am^2+bm+c=0$$
 \end{przyklad}
 \end{frame}
 
-\begin{frame}{Readable Mathematics}
+\begin{frame}{Liczby Origami}
+\begin{figure}[!htb]
+\includegraphics[scale=0.2]{root.jpg}
+\end{figure}
+\end{frame}
 
-Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
-$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
-      = \frac{1}{n}\sum_{i}^{n} X_i$$
-denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
-
+\begin{frame}{Liczby Origami}
+\begin{twierdzenie}
+Niech $\mathcal{O}=\{\alpha\in\mathbb{C}\ |\ \alpha\ jest\ origami\}$. $\mathcal{C}$ jest podciałem 	$\mathbb{C}$ Ponadto: 
+\begin{enumerate}[label=(\alph*)]
+\item Niech $\alpha = a + bi\in\mathcal{C}$, gdzie $a,b\in\mathbb{R}$, to $a,b\in\mathcal{C}$.
+\item Jeżeli $\alpha \in \mathcal{C}$, to $\sqrt{\alpha}\in\mathcal{C}$
+\item Jeżeli $\alpha \in \mathcal{C}$, to $\sqrt[3]{\alpha}\in\mathcal{C}$
+\end{enumerate}
+\end{twierdzenie}
 \end{frame}
 
 \end{document}
